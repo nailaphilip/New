@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./App.css";
+import "./assets/vegetables-set-left-black-slate.jpg";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div className="container">
+      <div className="hero-banner">
+        <h1>Welcome to Recipe App</h1>
+      </div>
+      <div className="card-container">
+        <div className="card">
+          <Link to="/add">
+            <h2>Add Recipe</h2>
+            <p>Add a new recipe to the collection</p>
+          </Link>
+        </div>
+        <div
+          className="card"
+          // style={{
+          //   backgroundImage: "url('./assets/plate-silhouette-tableware.jpg')",
+          // }}
         >
-          Learn React
-        </a>
-      </header>
+          <Link to="/browse">
+            <h2>Browse Recipes</h2>
+            <p>Explore the collection of recipes</p>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }

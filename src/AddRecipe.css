@@ -1,0 +1,47 @@
+.add-recipe-container {
+    background-image: url('./assets/indian-condiments-with-copy-space-view.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: white;
+  }
+  
+  .add-recipe-container form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .add-recipe-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .add-recipe-container input,
+  .add-recipe-container select,
+  .add-recipe-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #444;
+    font-size: 16px;
+  }
+  
+  .add-recipe-container button[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .add-recipe-container button[type="submit"]:hover {
+    background-color: #e67e22;
+  }
+  
