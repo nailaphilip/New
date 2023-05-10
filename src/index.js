@@ -13,6 +13,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/add" element={<AddRecipe />} />
         <Route path="/browse" element={<BrowseRecipes />} />
+        <Route path="/https://www.bc.fi/" />
       </Routes>
     </BrowserRouter>
     ,

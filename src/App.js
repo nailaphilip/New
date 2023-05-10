@@ -27,6 +27,12 @@ function App() {
             <p>Explore the collection of recipes</p>
           </Link>
         </div>
+        <div className="card">
+          <Link to="https://www.bc.fi/">
+            <h2>BC's website</h2>
+            <p>Visit Our Website</p>
+          </Link>
+        </div>
       </div>
     </div>
   );
