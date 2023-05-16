@@ -17,7 +17,7 @@
   }
   
   .add-recipe-container input,
-  .add-recipe-container select,
+  .select-country,
   .add-recipe-container textarea {
     width: 100%;
     padding: 10px;
@@ -44,4 +44,22 @@
   .add-recipe-container button[type="submit"]:hover {
     background-color: #e67e22;
   }
+
+  .add-recipe .ingridients-container {
+    margin-top: 10px;
+  }
   
+  .add-recipe .ingridients-container .ingridient-input {
+    margin-bottom: 5px;
+  }
+  
+  .add-recipe .ingridients-container .ingridient-input input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .add-recipe .ingridients-container .add-ingridient-btn {
+    margin-top: 10px;
+  }

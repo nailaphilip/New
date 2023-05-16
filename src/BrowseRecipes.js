@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import { Link } from "react-router-dom";
 
 import RecipeCard from "./components/RecipeCard";
 
@@ -8,12 +7,19 @@ import "./BrowseRecipes.css";
 function BrowseRecipes() {
   const [recipes, setRecipes] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
+    setIsLoading(true);
     fetch("http://localhost:3001/recipes")
       .then((response) => response.json())
       .then((data) => setRecipes(data));
+    setIsLoading(false);
   }, []);
+
+  if (isLoading) {
+    return <p>Loading...</p>;
+  }
 
   return (
     <div className="container">

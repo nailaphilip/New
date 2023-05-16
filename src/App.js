@@ -6,6 +6,19 @@ import "./assets/vegetables-set-left-black-slate.jpg";
 function App() {
   return (
     <div className="container">
+      <nav>
+        <ul className="nav-links">
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/browse">Browse Recipes</Link>
+          </li>
+          <li>
+            <Link to="/add">Add Recipe</Link>
+          </li>
+        </ul>
+      </nav>
       <div className="hero-banner">
         <h1>Welcome to Recipe App</h1>
       </div>
@@ -16,12 +29,7 @@ function App() {
             <p>Add a new recipe to the collection</p>
           </Link>
         </div>
-        <div
-          className="card"
-          // style={{
-          //   backgroundImage: "url('./assets/plate-silhouette-tableware.jpg')",
-          // }}
-        >
+        <div className="card">
           <Link to="/browse">
             <h2>Browse Recipes</h2>
             <p>Explore the collection of recipes</p>
