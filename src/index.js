@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import AddRecipe from "./AddRecipe";
 import BrowseRecipes from "./BrowseRecipes";
+import RecipePage from "./components/RecipePage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,6 +15,7 @@ root.render(
         <Route path="/add" element={<AddRecipe />} />
         <Route path="/browse" element={<BrowseRecipes />} />
         <Route path="/https://www.bc.fi/" />
+        <Route path="/recipes/:id" element={<RecipePage />} />
       </Routes>
     </BrowserRouter>
     ,

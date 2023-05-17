@@ -1,9 +1,9 @@
 .add-recipe-container {
-    background-image: url('./assets/indian-condiments-with-copy-space-view.jpg');
-    background-size: cover;
-    background-position: center;
+    background: url('./assets/indian-condiments-with-copy-space-view.jpg') no-repeat center center/cover;
+    height: 100vh;
     padding: 50px;
     color: white;
+    font-family:"Raleway", sans-serif;
   }
   
   .add-recipe-container form {
@@ -27,6 +27,7 @@
     background-color: rgba(255, 255, 255, 0.8);
     color: #444;
     font-size: 16px;
+    font-family:"Raleway", sans-serif;
   }
   
   .add-recipe-container button[type="submit"] {
@@ -62,4 +63,9 @@
   
   .add-recipe .ingridients-container .add-ingridient-btn {
     margin-top: 10px;
+  }
+
+  .add-ingredient-btn {
+    padding: 5px;
+    border-radius: 5px;
   }

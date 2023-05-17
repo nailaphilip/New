@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from "react";
 import Select from "react-select";
 import countryList from "react-select-country-list";
+import Navbar from "./components/Navbar";
 
 import axios from "axios";
 
@@ -33,7 +34,7 @@ function AddRecipe() {
       setPreparation("");
       setCountry("");
       setPhoto("");
-      setIngridients([...ingridients, ""]);
+      setIngridients([]);
     } catch (error) {
       console.error(error);
     }
@@ -54,84 +55,76 @@ function AddRecipe() {
   };
 
   return (
-    <div className="add-recipe-container">
-      <h1>Add Recipe</h1>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input
-            type="text"
-            id="name"
-            value={name}
-            onChange={(event) => setName(event.target.value)}
-          />
-        </div>
-        <div>
-          <label htmlFor="description">Description:</label>
-          <textarea
-            id="description"
-            value={description}
-            onChange={(event) => setDescription(event.target.value)}
-          />
-        </div>
-        <div>
-          <label htmlFor="preparation">Preparation:</label>
-          <textarea
-            id="preparation"
-            value={preparation}
-            onChange={(event) => setPreparation(event.target.value)}
-          />
-        </div>
-        <div className="select-country">
-          <label htmlFor="country">Country of origin:</label>
-          <Select
-            options={options}
-            value={options.find((option) => option.value === country)}
-            onChange={changeHandler}
-          />
-
-          {/* <select
-            id="country"
-            value={country}
-            onChange={(event) => setCountry(event.target.value)}
-          >
-            <option value="">Please select a country</option>
-            <option value="Italy">Italy</option>
-            <option value="France">France</option>
-            <option value="Mexico">Mexico</option>
-          </select> */}
-        </div>
-        <div>
-          <label htmlFor="photo">Photo:</label>
-          <input
-            type="text"
-            id="photo"
-            value={photo}
-            onChange={(event) => setPhoto(event.target.value)}
-          />
-        </div>
-        <div className="ingredients-container">
-          <label htmlFor="ingridients">Ingredients:</label>
-          {ingridients.map((ingridient, index) => (
+    <div>
+      <Navbar />
+      <div className="add-recipe-container">
+        <h1>Add Recipe</h1>
+        <form onSubmit={handleSubmit}>
+          <div>
+            <label htmlFor="name">Name:</label>
             <input
-              key={index}
               type="text"
-              value={ingridient}
-              onChange={(event) =>
-                handleIngridientChange(index, event.target.value)
-              }
+              id="name"
+              value={name}
+              onChange={(event) => setName(event.target.value)}
             />
-          ))}
-          <button
-            type="button"
-            className="add-ingredient-btn"
-            onClick={handleAddIngridient}
-          >
-            Add Ingredient
-          </button>
-        </div>
-        <button type="submit">Submit</button>
-      </form>
+          </div>
+          <div>
+            <label htmlFor="description">Description:</label>
+            <textarea
+              id="description"
+              value={description}
+              onChange={(event) => setDescription(event.target.value)}
+            />
+          </div>
+          <div>
+            <label htmlFor="preparation">Preparation:</label>
+            <textarea
+              id="preparation"
+              value={preparation}
+              onChange={(event) => setPreparation(event.target.value)}
+            />
+          </div>
+          <div className="select-country">
+            <label htmlFor="country">Country of origin:</label>
+            <Select
+              options={options}
+              value={options.find((option) => option.value === country)}
+              onChange={changeHandler}
+            />
+          </div>
+          <div>
+            <label htmlFor="photo">Photo:</label>
+            <input
+              type="text"
+              id="photo"
+              value={photo}
+              onChange={(event) => setPhoto(event.target.value)}
+            />
+          </div>
+          <div className="ingredients-container">
+            <label htmlFor="ingridients">Ingredients:</label>
+            {ingridients.map((ingridient, index) => (
+              <input
+                key={index}
+                type="text"
+                value={ingridient}
+                onChange={(event) =>
+                  handleIngridientChange(index, event.target.value)
+                }
+              />
+            ))}
+            <button
+              type="button"
+              className="add-ingredient-btn"
+              onClick={handleAddIngridient}
+            >
+              Add Ingredient
+            </button>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
     </div>
   );
 }

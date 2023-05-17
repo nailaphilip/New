@@ -1,42 +1,10 @@
 {
   "recipes": [
     {
-      "name": "Pasta",
-      "description": "Discover how to make superb spaghetti carbonara. This cheesy pasta dish is an Italian favourite and with the right technique, you can make it perfect every time",
-      "country": "Italy",
-      "photo": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1001491_11-2e0fa5c.jpg?quality=90&webp=true&resize=440,400",
-      "id": 4
-    },
-    {
-      "name": "Chicken & bean enchiladas",
-      "description": "A family dinner that delivers four of your 5-a-day - tender chicken, red pepper and black beans, wrapped in tortilla, baked in the oven with passata and cheese",
-      "country": "Mexico",
-      "photo": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chickenbean-enchiladas-1044331.jpg?quality=90&webp=true&resize=440,400",
-      "id": 5
-    },
-    {
-      "name": "Onion Soup",
-      "description": "Warm, cozy, and flavorful, this French onion soup is prepared with beef stock and caramelized onions. Top with croutons covered in melty Gruyere and Parmesan cheese.",
-      "country": "France",
-      "photo": "https://www.simplyrecipes.com/thmb/cmCIHeOeuV153LujEdY6tZK_Mb8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-French-Onion-Soup-LEAD-06-00d3b5bcdf4a4261b89e1be4aedf90f3.jpg",
-      "id": 6
-    },
-    {
-      "name": "Soup",
-      "description": "skdjhfrfg",
-      "country": "France",
-      "photo": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1001491_11-2e0fa5c.jpg?quality=90&webp=true&resize=440,400",
-      "ingridients": [
-        "Onions",
-        "Carrots"
-      ],
-      "id": 7
-    },
-    {
       "name": "Banana Bread",
       "description": "Put those ripe bananas to use in the best banana bread recipe ever. Moist and delicious, it's easy to make—one bowl, no need for a mixer!",
       "preparation": "In a mixing bowl, mash the ripe bananas with a fork until completely smooth. Stir the melted butter into the mashed bananas. Mix in the baking soda and salt. Stir in the sugar, beaten egg, and vanilla extract. Mix in the flour. Pour the batter into your prepared loaf pan. Bake for 55 to 65 minutes at 350°F (175°C), or until a toothpick or wooden skewer inserted into the center comes out clean.",
-      "country": "Italy",
+      "country": "USA",
       "photo": "https://www.simplyrecipes.com/thmb/1qlP36kzpJIkLq3DR10qjINflcI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Easy-Banana-Bread-LEAD-2-66837beab63c495292d89743c6767171.jpg",
       "ingridients": [
         "2 to 3 medium (7\" to 7-7/8\" long) very ripe bananas, peeled (about 1 1/4 to 1 1/2 cups mashed)",
@@ -49,37 +17,59 @@
       "id": 8
     },
     {
-      "name": "test",
-      "description": "test",
-      "preparation": "test",
-      "country": "Croatia",
-      "photo": "https://www.simplyrecipes.com/thmb/cmCIHeOeuV153LujEdY6tZK_Mb8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-French-Onion-Soup-LEAD-06-00d3b5bcdf4a4261b89e1be4aedf90f3.jpg",
+      "name": "Spaghetti carbonara",
+      "description": "Discover how to make superb spaghetti carbonara. This cheesy pasta dish is an Italian favourite and with the right technique, you can make it perfect every time.",
+      "preparation": "Put a large saucepan of water on to boil.\nFinely chop the 100g pancetta, having first removed any rind. Finely grate 50g pecorino cheese and 50g parmesan and mix them together.\nBeat the 3 large eggs in a medium bowl and season with a little freshly grated black pepper. Set everything aside.\nAdd 1 tsp salt to the boiling water, add 350g spaghetti and when the water comes back to the boil, cook at a constant simmer, covered, for 10 minutes or until al dente (just cooked).\nSquash 2 peeled plump garlic cloves with the blade of a knife, just to bruise it.\nWhile the spaghetti is cooking, fry the pancetta with the garlic. Drop 50g unsalted butter into a large frying pan or wok and, as soon as the butter has melted, tip in the pancetta and garlic.\nLeave to cook on a medium heat for about 5 minutes, stirring often, until the pancetta is golden and crisp. The garlic has now imparted its flavour, so take it out with a slotted spoon and discard.Keep the heat under the pancetta on low. When the pasta is ready, lift it from the water with a pasta fork or tongs and put it in the frying pan with the pancetta. Don’t worry if a little water drops in the pan as well (you want this to happen) and don’t throw the pasta water away yet.\nMix most of the cheese in with the eggs, keeping a small handful back for sprinkling over later.Take the pan of spaghetti and pancetta off the heat. Now quickly pour in the eggs and cheese. Using the tongs or a long fork, lift up the spaghetti so it mixes easily with the egg mixture, which thickens but doesn’t scramble, and everything is coated. Add extra pasta cooking water to keep it saucy (several tablespoons should do it).",
+      "country": "Italy",
+      "photo": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1001491_11-2e0fa5c.jpg?quality=90&webp=true&resize=440,400",
       "ingridients": [
-        "test"
+        "100g pancetta",
+        "50g pecorino cheese",
+        "3 large eggs",
+        "350g spaghetti",
+        "2 plump garlic cloves, peeled and left whole",
+        "50g unsalted butter"
       ],
       "id": 9
     },
     {
-      "name": "test1",
-      "description": "test1",
-      "preparation": "wqrqw",
-      "country": "Ethiopia",
-      "photo": "https://www.simplyrecipes.com/thmb/cmCIHeOeuV153LujEdY6tZK_Mb8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-French-Onion-Soup-LEAD-06-00d3b5bcdf4a4261b89e1be4aedf90f3.jpg",
+      "name": "Eesti Kartulisalat",
+      "description": "Eesti Kartulisalat is an Estonian potato salad prepared using boiled potatoes and carrots (which are sliced into bitesize pieces), a sliced boiled egg, cubed cucumbers and smoked sausage.",
+      "preparation": "n Estonia, potato salad is first prepared by cutting boiled potatoes and carrots into small pieces. Grated boiled eggs, diced cucumber, and boiled sausage are then added to the salad.\n\nSour cream and mayonnaise combine the ingredients, while canned peas are also commonly added. The last ingredient, for a little sweet and sour flavor, is a diced apple. Cucumber and apple help to balance the delicious taste.",
+      "country": "Estonia",
+      "photo": "https://img-global.cpcdn.com/recipes/5fad041946b8d65f/1360x964cq70/eesti-kartulisalat-estonian-potato-salad-resipi-foto-utama.webp",
       "ingridients": [
-        "fef"
-      ],
-      "id": 10
-    },
-    {
-      "name": "testH",
-      "description": "efew",
-      "preparation": "wefe",
-      "country": "Burkina Faso",
-      "photo": "https://www.simplyrecipes.com/thmb/cmCIHeOeuV153LujEdY6tZK_Mb8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-French-Onion-Soup-LEAD-06-00d3b5bcdf4a4261b89e1be4aedf90f3.jpg",
-      "ingridients": [
-        "wefwef"
+        "2medium sized boiled potato",
+        "1 carrot - boiled",
+        "1 boiled eggs - grated",
+        "2 boiled sausage",
+        "1/2 Japanese cucumber - diced",
+        "1 apple- diced",
+        "100g peas (canned) ",
+        "3/4 cupsour cream- replace yogurt",
+        "3/4 cupmayonnaise"
       ],
       "id": 11
+    },
+    {
+      "name": "Butter chicken",
+      "description": "Butter Chicken is one of the most popular curries at any Indian restaurant around the world. Aromatic golden chicken pieces in an incredible creamy curry sauce, this Butter Chicken recipe is one of the best you will try! ",
+      "preparation": "First, mix your yogurt marinade together.\nMarinate chicken for 20 minutes, or overnight if time allows. (The longer it marinates, the more tender your chicken will be.)\nSear chicken in a skillet or pan. Keep those charred bits on the pan to make your sauce. Browned bits = flavour. If you have too many burnt pieces stuck to the pan, you can discard some of them if you wish.\nFinally, make your curry sauce in the same skillet.",
+      "country": "India",
+      "photo": "https://cafedelites.com/wp-content/uploads/2019/01/Butter-Chicken-IMAGE-27.jpg",
+      "ingridients": [
+        "28 oz (800g) boneless and skinless chicken thighs or breasts cut into bite-sized pieces",
+        "1/2 cup plain yogurt",
+        "1 1/2 tablespoons minced garlic",
+        "1 tablespoon minced ginger (or finely grated)",
+        "2 teaspoons garam masala",
+        "1 teaspoon turmeric",
+        "1 teaspoon ground cumin",
+        "1 teaspoon red chili powder",
+        "14 oz (400 g) crushed tomatoes",
+        "1 cup of heavy or thickened cream (or evaporated milk to save calories)"
+      ],
+      "id": 12
     }
   ]
 }
