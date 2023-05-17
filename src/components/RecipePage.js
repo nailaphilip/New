@@ -8,7 +8,6 @@ function RecipePage() {
   const navigate = useNavigate();
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  console.log(params);
   useEffect(() => {
     setIsLoading(true);
     fetch(`http://localhost:3001/recipes/${params.id}`)
@@ -25,13 +24,7 @@ function RecipePage() {
 
   return (
     <div className="recipe-card">
-      <div className="flag-overlay">
-        {/* <img
-          className="flag"
-          src={`./assets/flags/${recipe.country.value}.svg`}
-          alt={countryName}
-        /> */}
-      </div>
+      <div className="flag-overlay"></div>
       <img className="recipe-photo" src={data.photo} alt={data.name} />
       <div className="recipe-card-content">
         <h2>{data.name}</h2>

@@ -35,9 +35,7 @@ function AddRecipe() {
       setCountry("");
       setPhoto("");
       setIngridients([]);
-    } catch (error) {
-      console.error(error);
-    }
+    } catch (error) {}
   };
 
   const changeHandler = (selectedOption) => {
