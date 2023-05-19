@@ -1,4 +1,14 @@
-# Getting Started with the Recipe-app
+# Project description
+
+This is a Recipe-app. The app creates and reads the recipes. The app was created with React.
+
+## Required dependencies
+
+axios
+json-server
+react, react-dom, react-router-dom, react-select, react-select-country-list
+
+### Getting Started with the Recipe-app
 
 This app creates and reads the recipes.
 
@@ -14,3 +24,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ### `npx json-server --watch db.json --port 3001`
 
 Runs the json-server.
+
+#### Source
+
+The recipes that are in the database were found on the internet.
