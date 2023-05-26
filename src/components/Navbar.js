@@ -13,12 +13,12 @@ function Navbar() {
         </li>
         <li className="nav-item">
           <Link to="/add" className="nav-link">
-            Add Recipe
+            Add Event
           </Link>
         </li>
         <li className="nav-item">
           <Link to="/browse" className="nav-link">
-            Browse Recipes
+            Browse Events
           </Link>
         </li>
       </ul>

@@ -4,6 +4,13 @@ body {
   padding: 0;
 }
 
+.home-page-container {
+  background-image: url("./assets/team-sitting-desk-checking-reports-talking-top-view.jpg");
+  background-size: cover;
+  background-position: center;
+  max-height: 100%;
+}
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -22,16 +29,16 @@ body {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 80%;
   margin: 0 auto;
-  padding: 15px;
+  padding: 10px;
 }
 
 .hero-banner {
-  height: 500px;
-  background-image: url("/Users/s2300107/Desktop/BCH/recipe-app/src/assets/vegetables-set-left-black-slate.jpg");
+  height: 200px;
+  /* background-image: url("./assets/team-sitting-desk-checking-reports-talking-top-view.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,7 +46,7 @@ body {
 }
 
 .hero-banner h1 {
-  color: #fff;
+  color: rgb(122, 114, 114);
   font-size: 4rem;
   text-align: center;
 }

@@ -1,16 +1,16 @@
 # Project description
 
-This is a Recipe-app. The app creates and reads the recipes. The app was created with React.
+This is a BCH Events app. The app creates and reads the events. The app was created with React.
 
 ## Required dependencies
 
 axios
 json-server
-react, react-dom, react-router-dom, react-select, react-select-country-list
+react, react-dom, react-router-dom
 
-### Getting Started with the Recipe-app
+### Getting Started with the BCH Events app
 
-This app creates and reads the recipes.
+This app creates and reads the events.
 
 ## Available Scripts
 
@@ -26,5 +26,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 Runs the json-server.
 
 #### Source
-
-The recipes that are in the database were found on the internet.
